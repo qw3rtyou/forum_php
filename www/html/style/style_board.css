@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Poppins, 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#nav {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	text-align: right;
+	color: #4CAF50;
+	height: 50px;
+	background-color: #4CAF50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav a {
+	text-decoration: none;
+	cursor: pointer;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+#board_area {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#board_area>#search_box a{
+  text-decoration: none;
+  height: 30px;
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#search_box {
+  margin-bottom: 20px;
+}
+
+#search_box select,
+#search_box input[type="text"] {
+  height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search_box button {
+  height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table.list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.list-table thead th {
+  height: 30px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+table.list-table tbody td {
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table.list-table tbody td a {
+  color: #000;
+  text-decoration: none;
+}
+
+#page_num {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+#page_num ul {
+  list-style: none;
+  padding: 0;
+}
+
+#page_num ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#page_num ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+#write_btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#write_btn button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span#hit {
+	position: relative;
+  left: 5px;
+  color: #007bff;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 2px 5px;
+}
+
+#page_num ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page_num ul li {
+  margin-right: 5px;
+}
+
+#page_num ul li a.paging-bt {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#page_num ul li a.current-page {
+  border-radius: 10px;
+  background-color: #008bff;
+  color: #fff;
+  border: none;
+}
+
+a#hello-name{
+  width: 200px;
+  cursor: default;
+}
+
+
+#search_box button:hover,
+#write_btn button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
+
+#page_num ul li a.paging-bt:hover {
+  background-color: #ddd; /* Change the background color of pagination buttons on hover */
+}
+
+#page_num ul li a.current-page:hover {
+  background-color: #0080ff; /* Change the background color of the current page pagination button on hover */
+}
+
+/* New CSS for hover effect on hit */
+span#hit:hover {
+  color: #f00; /* Change the hit color on hover */
+  cursor: pointer;
+}

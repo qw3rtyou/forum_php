@@ -1,0 +1,9 @@
+# upload 폴더 내의 모든 파일 무시
+upload/*
+ 
+# upload 폴더 무시하지 않음
+!upload/.gitkeep
+
+html/.secret
+config/gt
+config/mysql_info.php

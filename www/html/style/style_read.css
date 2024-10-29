@@ -1,0 +1,233 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+  	padding: 0;
+	background-color: #f5f5f5;
+}
+
+a {
+	text-decoration: none;
+	color: #4CAF50
+}
+
+h1 {
+	text-align: center;
+	color: #000;
+}
+
+#wrapper-full{
+	width: 70%;
+	background-color: #fdfdfd;
+	margin: 100px auto;
+	padding: 20px;
+	border-radius:5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}	
+
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+  	margin-bottom: 20px;
+	width: 90%;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+#user_info {
+	text-align: right;
+	margin-bottom: 10px;
+	color: #888;
+}
+
+#bo_line {
+	height: 1px;
+	background-color: #ccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#bo_content {
+	margin-bottom: 10px;
+	line-height: 1.5;
+	height: 200px;
+	overflow: auto;
+}
+
+.reply_view {
+	margin-bottom: 20px;
+}
+
+.reply_view div {
+	margin-bottom: 10px;
+}
+
+.reply_view a {
+	margin-right: 10px;
+}
+
+.card form {
+	margin-top: 20px;
+}
+
+.reply_content {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+  	height: 20vw;
+}
+
+.re_bt {
+	padding: 7px 15px;
+	background-color: #007bff;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.re_bt:hover {
+	background-color: #0056b3;
+}
+
+.wrapper-button{
+	text-align: right;
+	margin-right: 0;
+}
+
+a.button-edit,
+a.button-delete{
+	margin-right: 0;
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button-edit:hover,
+.button-delete:hover{
+	background-color: #4C9F10;
+}
+
+
+textarea::placeholder {
+	font-family: Arial, sans-serif; 
+	font-style: italic; 
+	color: #999; 
+}
+
+input::placeholder {
+	font-family: Arial, sans-serif; 
+	font-style: italic; 
+	color: #999; 
+}
+
+
+
+#nav {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	text-align: right;
+	color: #4CAF50;
+	height: 50px;
+	background-color: #4CAF50;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#nav a {
+	text-decoration: none;
+	cursor: pointer;
+	height: 30px;
+	font-size: 15px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	width: 100px;
+}
+
+#nav #hello-name{
+	width: 200px;
+	cursor: default;
+}
+
+button.button-edit-reply{
+	margin-right: 0;
+	padding: 4.5px 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button.button-edit-reply:hover{
+	background-color: #4C9F10;
+}
+
+button.button-save-edit,
+button.button-cancel-edit {
+	margin-right: 0;
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button.button-save-edit:hover,
+button.button-cancel-edit:hover {
+	background-color: #0056b3;
+}
+
+.edit-reply-content{
+	width:100%; 
+	border: none;
+    outline: none;
+	background-color: rgb(255, 255, 255);
+	resize: none;
+	height: 100%;
+	max-height: none;
+}
+
+.edit-reply-form{
+	height: 100px;
+}
+
+/* 수직 스크롤 바 */
+::-webkit-scrollbar {
+	width: 10px; /* 스크롤 바의 너비 */
+  }
+  
+  /* 스크롤 바의 슬라이더 부분 */
+  ::-webkit-scrollbar-thumb {
+	background-color: #888; /* 슬라이더의 색상 */
+	border-radius: 5px; /* 슬라이더의 둥근 모서리 반경 */
+  }
+  
+  /* 스크롤 바의 슬라이더가 없는 부분 */
+  ::-webkit-scrollbar-track {
+	background-color: #f1f1f1; /* 슬라이더 없는 부분의 색상 */
+  }

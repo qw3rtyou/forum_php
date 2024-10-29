@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Poppins, 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+#board_write {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    margin: 0;
+}
+
+a{  
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+#container-back{
+    text-align: left
+}
+
+#write_area {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin: auto;
+    margin-top : 5px;
+}
+
+input[type="password"] {
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#board_write > h4 {
+    text-align: center;
+    color: #000;
+    font-size: 35px;
+} 
+
+#board_write > #write_area {
+    text-align: center;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+    
+#in_title > textarea{
+    height: 100%;
+}
+
+#in_title {
+    height: 50px;
+}
+    
+#in_content > textarea{
+    height: 100%;
+}
+
+#in_content {
+	margin-top: 7px;
+    height: 30vw;
+}
+
+#in_file {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+#in_password {
+    text-align: left;
+    margin-top: 15px;
+}
+
+#in_submit {
+    text-align: center;
+}
+
+textarea::placeholder {
+  font-family: Arial, sans-serif; 
+  font-style: italic; 
+  color: #999; 
+}
+
+input::placeholder {
+  font-family: Arial, sans-serif; 
+  font-style: italic; 
+  color: #999; 
+}
